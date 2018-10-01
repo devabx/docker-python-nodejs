@@ -1,9 +1,9 @@
-[![Travis](https://img.shields.io/travis/nikolaik/docker-python-nodejs.svg?style=flat-square)](https://travis-ci.org/nikolaik/docker-python-nodejs)
-[![Pulls](https://img.shields.io/docker/pulls/nikolaik/python-nodejs.svg?style=flat-square)](https://hub.docker.com/r/nikolaik/python-nodejs/)
+[![Travis](https://img.shields.io/travis/devabx/docker-python-nodejs.svg?style=flat-square)](https://travis-ci.org/nikolaik/docker-python-nodejs)
+[![Pulls](https://img.shields.io/docker/pulls/devabx/python-nodejs.svg?style=flat-square)](https://hub.docker.com/r/nikolaik/python-nodejs/)
 [![Release](https://img.shields.io/github/release/nikolaik/docker-python-nodejs.svg?style=flat-square)](https://github.com/nikolaik/docker-python-nodejs/releases)
 
 ## Python (latest) with Node.js 10.x based on [beevelop/nodejs-python](https://github.com/beevelop/docker-nodejs-python)
-- Node: 10.x
+- Node: 8.x
 - npm: 6.x
 - yarn: stable
 - Python: latest
@@ -18,17 +18,17 @@ docker pull nikolaik/python-nodejs:latest
 
 ### Build from GitHub
 ```
-docker build -t nikolaik/python-nodejs github.com/nikolaik/docker-python-nodejs
+docker build -t devabx/python-nodejs github.com/devabx/docker-python-nodejs
 ```
 
 ### Run image
 ```
-docker run -it nikolaik/python-nodejs bash
+docker run -it devabx/python-nodejs bash
 ```
 
 ### Use as base image
 ```Dockerfile
-FROM nikolaik/python-nodejs:latest
+FROM devabx/python-nodejs:latest
 ```
 
 ## Disclaimer
